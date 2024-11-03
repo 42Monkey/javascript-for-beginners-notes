@@ -1,7 +1,7 @@
 // Functions are the cornerstone in JavaScript serving as reusable functions.
 // There are different ways to create a function.
 // In this lesson we'll explore function-declaration syntax
-// and function-expresson syntax.
+// and function-expression syntax.
 
 // Function declaration syntax
 function sayHi() {
