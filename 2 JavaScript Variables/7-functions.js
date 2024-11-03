@@ -1,16 +1,19 @@
-// Functions are the building blocks of our applications.
-// It allows us to group together statements to perform a task or calculate a value.
+// Functions are essential building blocks in our applications.
+// They allow us to group statements together to perform specific tasks or calculate values.
 
 // Function declaration syntax
 function sayHi() {
     console.log('Hi!');
 }
 
-// Then we invoke/call the function.
+// We can invoke (call) the function to execute its code.
 sayHi();
 
-// Can also define a parameter variable within the parenthesis.
+// We can also define a function with a parameter, which allows us to pass information into it.
 function sayHiPartTwo(name) {
     // Then we use string concatenation to use that variable.
     console.log('Hi! ' + name);
 }
+
+// To use the sayHiPartTwo function, we can call it and pass a name as an arguments.
+// Example: sayHiPartTwo('Alice');    // outputs 'Hi! Alice'
