@@ -1,17 +1,21 @@
-// We use the let keyword for variables which hold values that can be changed.
-// The const keyword is for values that can not be changed.
+// Variables in JavaScript can be declared using 'let' or 'const'
+// 'let' allows you to reassign values later in your code
+// 'const' creates a constant that cannot be reassigned after declaration
 
 const christmas_2024 = '12.25.2024';
 console.log(christmas_2024);
 
-// If you tried to reassign the constant, then when you run it, 
-// JavaScript would throw an error saying 'TypeError: Assignment to constant variable.'
-// christmas_2024 = '12.26.2024';
+// Attempting to reassign a constant will throw a TypeError
+// For example, uncommenting the line below would cause an error:
+// christmas_2024 = '12.26.2024'; // TypeError: Assignment to constant variable
 
-// May sometimes see constants named with the snake_case naming convention
-// depending on the naming convention of your development team.
-
-// Also may see variables named with snake_case with the letters capitalized.
+// Variables Naming Conventions:
+// 1. snake_case: words_separated_by_underscores
+// 2. SCREAMING_SNAKE_CASE: often used for global constants
 const COLOR_GREEN = 'green';
 
-// Regardless of the naming convention, it's best to use descriptive names for your variables.
+// Best Practices for Variables Names
+// - Use descriptive names that indicate the variable's purpose
+// - Be consistent with your team's chosen naming convention
+// - Avoid abbreviations unless they're widely understood
+// - Consider using nouns for variables and constants
