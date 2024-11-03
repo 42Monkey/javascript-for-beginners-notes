@@ -1,23 +1,21 @@
 // Arrays are used to store lists of data.
-// We use square brackets to create an array literal.
+// You can think of an array as a container that holds multiple values.
+// To create an array, we use square brackets [] to define an "array literal".
 let productColors = ['blue', 'green'];
 
-console.log(productColors);
+console.log(productColors);          // shows entire array in the console
 
-// The elements of an array can be accessed by index.
-// We begin counting the index from 0.
-// So to access the element of 'blue', 
-// we would use productColors[0]
+// You can access items in an array using their position, called an index.
+// The first item is at index 0.
+console.log(productColors[0]);        // outputs 'blue'
 
-// Arrays can contain values of any data type.
-// However we typically use arrays where all the elements are the same data type.
+// Arrays can hold different types of values, such as strings or numbers.
+// It's common to keep all items in an array the same type for simplicity.
 
-// Arrays are objects.
-// Objects consist of key-value pairs.
-// In the context of arrays, the keys are an index value. (a numeric value starting from 0)
+// Arrays are a special kind of object in JavaScript.
+// Objects are collections of key-value pairs, and arrays use numbers as their keys.
 
-// The data type is an object.
-console.log(typeof productColors);
+console.log(typeof productColors);    // shows 'object'
 
-// A useful property that you'll often use:
+// A helpful property of arrays is 'length', which tells you how many items are in the array.
 console.log(productColors.length);
