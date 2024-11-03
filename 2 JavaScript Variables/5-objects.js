@@ -1,38 +1,39 @@
-// Objects are reference types. (They are not a primitive value)
-// Objects represent nouns. (person, place, or thing)
-// They contain state or behavior, allowing you to group together related values.
+// Objects are a complex data type in JavaScript.
+// Think of an object as a collection of related information.
+// Objects are often used to represent things (like a person, place or item).
+// They can store various values (called properties) and actions (called methods).
 
-// Object Literals use curly braces.
-// Here you would specify key-value pairs.
+// Creating an object using an "object literal" (using curly braces '{}').
+// Inside the object, we define properties as key-value pairs.
 let course = {
     name: 'JavaScript for Beginners',
     hours: 3,
 };
 
-// You can access a property through dot notation.
+// Accessing a property using dot notation.
 console.log(course.name);
 
-// You can also reassign the value.
+// Updating a property's value.
 course.name = 'JavaScript Fundamentals';
 
 console.log(course.name);
 
-// You can also access properties through bracket notation.
-// You would typically use dot notation however bracket notation is used
-// if you don't know the exact key/property you want to access until runtime.
+// Accessing a property using bracket notation.
+// Dot notation is preferred, but bracket notation is useful if you
+// don't know that exact property name until the code is running.
 
 console.log(course['name']);
 
+// Changing the value of a property with bracket notation.
 course['name'] = 'JavaScript 101';
 
 console.log(course.name);
 
-// An example of how you would use bracket notation.
+// Example: using bracket notation when the property name is stored in a variable.
 let property = 'hours';
 console.log(course[property]);
 
-// To demonstrate the different aspects of a JavaScript object.
-// The key-value is referred to as a property of the JavaScript object.
+// Objects store information as key-value pairs. Each pair is called a "property" of the object.
 let obj = {
-    key: 'value'
+    key: 'value' // 'key' is the name of the property, 'value' is the stored data
 };
