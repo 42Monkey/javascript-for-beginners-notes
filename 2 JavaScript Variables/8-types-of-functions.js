@@ -1,24 +1,22 @@
-// Functions are a building block in our programs.
-// They enable us to group together a block of code,
-// which is a set of statements defined within curly braces.
+// Functions are building blocks in our program.
+// They allow us to group a set of statements inside curly braces {}.
 
-// We create a function for one of two options.
-// The first option is to perform some action.
-// The second option is to calculate and return some value.
+// We create functions to do one of two things:
+// 1. Perform an action.
+// 2. Calculate and return a value.
 
-// So not all functions require us to explicitly use the return keyword.
-// By default if we don't supply an explicit return value,
-// then JavaScript will have the function return the value undefined.
+// Not all functions need to use the return keyword.
+// If we don't provide a return value, JavaScript will return undefined by default.
 
 function multiply(num1, num2) {
-    return num1 * num2;
+    return num1 * num2;            // returns the product of num1 and num2
 }
 
-console.log( multiply(2, 2) );
+console.log( multiply(2, 2) );    // outputs 4
 
-// If we don't specify a return keyword, then JavaScript will return undefined by default.
+// If we don't use the return keyword, the function returns undefined by default.
 function add(num1, num2) {
-    const sum = num1 + num2;
+    const sum = num1 + num2;        // calculates the same but doesn't return it.
 }
 
-console.log( add(3, 3) );
+console.log( add(3, 3) );            // outputs undefined
