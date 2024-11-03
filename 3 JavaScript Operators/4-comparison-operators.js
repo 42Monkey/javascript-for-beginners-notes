@@ -1,10 +1,10 @@
-// Comparison operators include...
-// >, greater than
-// >=, greater than or equal to
-// <, less than
-// <=, less than or equal to
+// Comparison operators are used to compare two values:
+// >	: greater than
+// >=	: greater than or equal to
+// <	: less than
+// <=	: less than or equal to
 
-// The result of a comparison operator is a boolean value, true or false.
+// The result of a comparison operator is a boolean value: true or false.
 let num1 = 14;
 let num2 = 10;
 
