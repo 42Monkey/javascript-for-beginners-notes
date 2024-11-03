@@ -1,10 +1,5 @@
-// The function declaration syntax and function expression syntax
-// differ because of the concept of hoisting.
-// Hoisting is a process where the JavaScript engine moves all 
-// function declarations to the top of their enclosing scope.
-
-// With function declaration syntax, we can call/invoke a function 
-// before it is defined due to hoisting.
+// Hoisting is a process that moves function declarations to the top
+// of their scope, allowing us to call a function before it is defined.
 
 add(2, 2);
 
